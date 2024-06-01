@@ -17,10 +17,19 @@ nav{
     height: 50px;
     border: 1px solid black;
     border-radius: 50%;
-    background-image: url(api.jpg);
-    
+    background-image: url(https://picsum.photos/200);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+@media(max-width: 600px) {
+    nav{
+        width: 100%;
+    }
+    .container > a{
+        padding: auto;
+    }
+  }
+  
 .container{
     display: flex;
     justify-content: center;
