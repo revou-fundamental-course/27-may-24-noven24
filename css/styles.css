@@ -5,21 +5,27 @@
 }
 
 nav{
-    background-color: rgb(94, 61, 131);
+    background-color: goldenrod;
     width: 100%;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+.nav-item{
+    border: 2px solid white;
+    
+    
 }
 .logo{
     width: 50px;
     height: 50px;
     border: 1px solid black;
     border-radius: 50%;
-    background-image: url(https://picsum.photos/200);
-    background-repeat: no-repeat;
+    background-image: url("/assets/perscative.jpeg");
     background-size: cover;
+    
 }
 @media(max-width: 600px) {
     nav{
@@ -31,13 +37,22 @@ nav{
     .content1{
         padding: auto;
     }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        padding: auto
+    }
+    .foto-profil{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
   }
   
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-
     
 }
 .container > a{
@@ -48,17 +63,81 @@ nav{
     font-weight: 800;
 }
 .container > a:hover{
+    background-color:blue;
     color: #f7f7f7;
 }
 main{
-    background-color: #00CED1;
+    background-color: gold;
     width: 100%;
-    height: 90vh;
-    
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+      
 }
 .content1{
-    padding-left: 80px;
-    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+.foto-profil{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url("/assets/track.jpg");
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.content2{
+    background-color: grey;
+    width: 100%;
+    height: 40vh;
+}
+.posisi{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.novel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.chapter{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url("/assets/novel1.jpg");
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgba(230, 2, 2, 0.5);
+}
+.chapter2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url("/assets/novel2.jpg");
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgba(230, 2, 2, 0.5);
+}
+.chapter3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url("/assets/novel1.jpg");
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgba(230, 2, 2, 0.5);
+}
+.judul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.judul{
+    color: gold;
+    font-weight: 600;
 }
 
 
