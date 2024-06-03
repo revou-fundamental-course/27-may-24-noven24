@@ -67,13 +67,19 @@ nav{
     color: #f7f7f7;
 }
 main{
-    background-color: gold;
+    background-image: url("/assets/background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
+    
+}
+.posisiContent{
     display: flex;
     justify-content: space-around;
     padding-top: 60px;
-      
+
+
 }
 .content1{
     display: flex;
@@ -138,6 +144,11 @@ main{
 .judul{
     color: gold;
     font-weight: 600;
+}
+.pesan{
+    background-color: aqua;
+    width: 100%;
+    height: 60vh;
 }
 
 
